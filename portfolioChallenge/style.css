@@ -67,9 +67,29 @@ body {
     display: inline-block;
     background: var(--bg-box);
     border-radius: 20px;
-    width: 59.5rem;
+    padding: 29px 30px 29px 30px;
     heigth: 5.375rem;
     text-align: center;
     box-shadow:3px 3px var(--shadow);
-    
+    margin: 30px;
+}
+
+.box2 p{
+    display: inline;
+    font-size: 1.25rem;
+}
+
+.p1 {
+    padding-right: 43.4375rem;
+}
+
+.box2 p a {
+    font-size: 0.875rem;
+    color: var(--color-txt);
+    text-decoration: none;
+}
+/*Box3*/
+.box3{
+    border: 1px solid white;
+    display:block
 }
