@@ -1,10 +1,9 @@
 /*Geral*/
-* {
-    
+
+* {  
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-      
+    box-sizing: border-box;   
 }
 
 html {
@@ -15,32 +14,41 @@ html {
 }
 
 body {
-    background: black;
-    color: var(--color-txt);
     display: flex;
-    background: var(--bg-vw) ;
-    align-items: center;
-    heigth: 100vh;
+    justify-content: center;
+    margin-inline: auto;
+    height: 100vh;
+    background: var(--bg-vw);
+
+    color: var(--color-txt);
 }
 
 .container {
-    width: 90rem;
-    heigth: 110.4375rem;
-    width: 100vw;
+    display:grid;
+    grid-template-areas: '1 2';
 }
 
-/*Box1*/
-.box1{
-    //border: 1px solid white;
-    border-radius: 20px;
+.projetcs {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-txt);
+    cursor: pointer;
+}
+
+a:hover {
+    filter: brightness(1.2);
+}
+
+/*box1*/
+.box1 {
     background: var(--bg-box);
-    width: 21.75rem;
-    heigth: 18.25rem;
-    text-align:center;
-    box-shadow:3px 3px var(--shadow);
-    margin: 40px 30px 30px 40px;
-    display: inline-block;
-    position: relative
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    text-align: center;
+    margin: 2.5rem 1.875rem 1.875rem 0rem;
 }
 
 .box1 img {
@@ -48,164 +56,160 @@ body {
     border: 2px solid #00FF00;
     width: 6.25rem;
     heigth: 6.25rem;
-    margin: 2rem;
-    
+    margin: 32px 110px 30px 110px;
 }
 
 .box1 h2 {
     font-size: 1.4375rem;
+    margin: 0px 0px 10px 0px; 
 }
 
 .box1 p {
-    font-size: 13px;
-    padding-top: 0.625rem;
-    padding-bottom: 3.125rem;
+    font-size: 0.8125rem;
+    padding: 0 0 48px 0;
 }
-/*Box2*/
+
+/*box2*/
 .box2 {
-    //border: 2px solid white;
-    display: inline-block;
     background: var(--bg-box);
-    border-radius: 20px;
-    padding: 29px 30px 29px 30px;
-    width: 59.5rem;
-    heigth: 5.375rem;
-    text-align: center;
-    box-shadow:3px 3px var(--shadow);
-    margin: 30px;
-    position: absolute;
-    top: 0.8rem;
-}
-
-.box2 p{
-    display: inline;
-    font-size: 1.25rem;
-}
-
-.p1 {
-    padding-right: 43.4375rem;
-}
-
-.box2 p a {
-    font-size: 0.875rem;
-    color: var(--color-txt);
-    text-decoration: none;
-}
-
-a:hover {
-    filter: brightness(1.2);
-}
-/*Box3*/
-.box3{
-    /* border: 1px solid white; */
-    width: 28.8125rem;
-    background: var(--bg-box);
-    box-shadow:3px 3px var(--shadow);
-    border-radius: 20px;
-    margin: 30px 30px 30px 40px;
-    position: absolute;
-    left: 900px;
-    top: 125px;
-
-}
-
-.mid3 p {
-    font-size: 14px;
-}
-
-/*Box4*/
-
-.box4{
-    /* border: 1px solid white; */
-    width: 28.8125rem;
-    background: var(--bg-box);
-    box-shadow:3px 3px var(--shadow);
-    border-radius: 20px;
-    margin: 30px 30px 30px 40px;
-    position: absolute;
-    left: 408px;
-    top: 125px;
-}
-
-.mid4 p {
-    font-size: 14px;
-}
-
-/*Box5*/
-.box5{
-    border-radius: 20px;
-    background: var(--bg-box);
-    width: 21.75rem;
-    /* heigth: 18.25rem; */
-    text-align:center;
-    box-shadow:3px 3px var(--shadow);
-    margin: 0px 0px 30px 40px;
+    border-radius: 1.25rem;
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
     display: flex;
-    justify-content: center;
-    align-items: center;
- 
-    
+    justify-content: space-between;
+    margin: 2.5rem 0rem 1.875rem 1.875rem;
 }
 
-ul {
-    list-style-type: none;
-    /* border: 1px solid white; */
-    display:block;
-    width: 15rem;
+.h2 {
+    font-size: 20px;
+    margin: 1.7rem 44.125rem 1.7rem 1.875rem;
 }
 
-a {
-    text-decoration: none;
-    color: var(--color-txt);
-    font-size: 13px;
-
+.box2 a {
+    margin: 1.6875rem 1.875rem 1.6875rem 0rem;
 }
 
-img{
-    margin: 0;
-    padding: 0;
- 
+/*box3*/
 
-}
-
-/*Box6*/
-.box6 {
-    //border: 2px solid white;
+.box3 {
     background: var(--bg-box);
-    border-radius: 20px;
-    padding: 29px 30px 29px 30px;
-    width: 59.5rem;
-    heigth: 5.375rem;
-    text-align: center;
-    box-shadow:3px 3px var(--shadow);
-    margin: 30px;
-    position: absolute;
-    top: 245px;
-    left: 420px;
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 30px 30px 30px;
+    width: 461px;
+    height: 186px;
 }
 
-.box6 p{
-    font-size: 1.25rem;
-    padding-right: 47.2rem;
+.top, .bottom, .share, .like, .gitshare, .language {
+    display: flex;
 }
 
-/*Box7*/
-.box7 {
+.bottom {
+    justify-content: space-between;
+}
+
+/*box4*/
+
+.box4 {
     background: var(--bg-box);
-    border-radius: 20px;
-    padding: 29px 30px 29px 30px;
-    width: 59.5rem;
-    heigth: 5.375rem;
-    box-shadow:3px 3px var(--shadow);
-    margin: 0;
-    position: absolute;
-    top: 24.2rem;
-    left: 28.2rem;  
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 0px 30px 0px;
 }
 
-.perfilPhoto img{
+.top {
+    margin: 30px 321px 30px 30px;
+    font-size: 16px;
+}
+
+.top img {
+    margin: 0px 15px 0px 0px;
+    height: 20px;
+    width:20px;
+}
+
+.mid {
+    margin: 0px 0px 40px 30px;
+    font-size: 14px;
+}
+
+.box4 .top, .bottom, .share, .like, .gitshare, .language {
+    display: flex;
+}
+
+.bottom {
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+}
+
+.like {
+    margin: 0px 19px 0px 0px;
+}
+
+.language img {
+    margin: 0px 8px 0px 0px;
+    height: 15px;
+    width: 15px;
+}
+
+.language p {
+    font-size: 14px;
+}
+
+/*box5*/
+
+.recentPost {
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 0px 0px 30px;
+}
+
+.recentPost h2 {
+    font-size: 20px;
+    padding: 28px 0px 28px 30px;
+}
+
+/*box6*/
+
+.lastView {
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 30px 0px 0px 30px;
+    display: flex;
+}
+
+.lastView img {
     border-radius: 50%;
     width: 6.25rem;
     heigth: 6.25rem;
-    margin: 2rem;
+    margin: 42px 20px 42px 30px;
+}
+
+.informationAndLastTime h2{
+    font-size: 18px;
+    margin: 30px 0px 15px 0px;
+}
+
+.informationAndLastTime p {
+    font-size: 14px;
+    margin: 0px 0px 30px 0px;
+}
+
+.moreInform p {
+    margin: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.hash {
+    display: flex;
+    font-size: 14px;
+}
+
+.hash .first{
+    margin: 0px 25px 0px 25px
+}
+
+.hash .second {
+    margin: 0px 25px 0px 0px
 }
