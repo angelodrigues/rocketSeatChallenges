@@ -213,3 +213,39 @@ a:hover {
 .hash .second {
     margin: 0px 25px 0px 0px
 }
+
+/*Social*/
+
+.social {
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 30px 30px 0px;   
+}
+
+/*Language Tech*/
+
+.languagesTech {
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 30px 30px 0px;   
+}
+
+/*Experience*/
+
+.experience{
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 30px 30px 0px;   
+}
+
+/*Education*/
+
+.education{
+    background: var(--bg-box);
+    box-shadow:0.1875rem 0.1875rem var(--shadow);
+    border-radius: 1.25rem;
+    margin: 0px 30px 30px 0px;   
+}
