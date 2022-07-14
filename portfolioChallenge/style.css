@@ -11,6 +11,7 @@ html {
     --color-txt: #837E9F;
     --bg-box: #302F3D;
     --shadow: #1C1C1C;
+    --bg-p: #CB92B1;
 }
 
 body {
@@ -221,6 +222,24 @@ a:hover {
     box-shadow:0.1875rem 0.1875rem var(--shadow);
     border-radius: 1.25rem;
     margin: 0px 30px 30px 0px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0px 0px 0px;
+}
+
+ul li {
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    padding: 0px 0px 0px 20px;
 }
 
 /*Language Tech*/
@@ -230,6 +249,16 @@ a:hover {
     box-shadow:0.1875rem 0.1875rem var(--shadow);
     border-radius: 1.25rem;
     margin: 0px 30px 30px 0px;   
+}
+
+.line1, .line2, .line3 {
+    display: flex;
+}
+
+.languagesTech .tech p {
+    background: var(--bg-p);
+    border-radius: 30px;
+    font-size: 10px;
 }
 
 /*Experience*/
