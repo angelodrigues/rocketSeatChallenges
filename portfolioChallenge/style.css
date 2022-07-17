@@ -22,6 +22,7 @@ body {
     background: var(--bg-vw);
 
     color: var(--color-txt);
+    font-family: sans-serif;
 }
 
 .container {
@@ -61,7 +62,7 @@ a:hover {
 }
 
 .box1 h2 {
-    font-size: 1.4375rem;
+    font-size: 20px;
     margin: 0px 0px 10px 0px; 
 }
 
@@ -227,18 +228,18 @@ a:hover {
     justify-content: center;
 }
 
-ul {
+.social ul {
     list-style: none;
     padding: 20px 0px 0px 0px;
 }
 
-ul li {
+.social ul li {
     margin: 0px 0px 20px 0px;
     display: flex;
     align-items: center;
 }
 
-ul li a {
+.social ul li a {
     padding: 0px 0px 0px 20px;
 }
 
@@ -257,8 +258,24 @@ ul li a {
 
 .languagesTech .tech p {
     background: var(--bg-p);
+    color: black;
     border-radius: 30px;
     font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 86px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languagesTech .tech {
+    padding: 0px 0px 30px 20px;
+}
+
+.contextoLanguages h2{
+    padding: 30px 0px 20px 20px;
 }
 
 /*Experience*/
@@ -270,6 +287,24 @@ ul li a {
     margin: 0px 30px 30px 0px;   
 }
 
+.experience h2 {
+    font-size: 20px;
+    padding: 30px 0px 20px 20px;
+}
+
+.experience ul {
+    font-size: 20px;
+    padding: 0px 0px 30px 60px;
+}
+
+.experience ul li {
+    padding: 0px 0px 20px 0px;
+}
+
+.experience ul li p {
+    font-size: 12px;
+}
+
 /*Education*/
 
 .education{
@@ -277,4 +312,22 @@ ul li a {
     box-shadow:0.1875rem 0.1875rem var(--shadow);
     border-radius: 1.25rem;
     margin: 0px 30px 30px 0px;   
+}
+
+.education h2 {
+    font-size: 20px;
+    padding: 30px 0px 20px 20px;
+}
+
+.education ul {
+    font-size: 20px;
+    padding: 0px 0px 30px 60px;
+}
+
+.education ul li {
+    padding: 0px 0px 20px 0px;
+}
+
+.education ul li p {
+    font-size: 12px;
 }
